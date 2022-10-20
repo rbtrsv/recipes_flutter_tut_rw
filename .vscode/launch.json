@@ -1,0 +1,708 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "chapter2",
+            "cwd": "chapter2",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "chapter2 (profile mode)",
+            "cwd": "chapter2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "chapter2 (release mode)",
+            "cwd": "chapter2",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "chapter3",
+            "cwd": "chapter3",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "chapter3 (profile mode)",
+            "cwd": "chapter3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "chapter3 (release mode)",
+            "cwd": "chapter3",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/03-basic-widgets/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/03-basic-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/03-basic-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/03-basic-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/03-basic-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/03-basic-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/04-understanding-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/05-scrollable-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/06-interactive-widgets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/07-routes-and-navigation/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/08-deep-links-and-web-URLs/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/09-handling-shared-preferences/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/10-serialization-with-json/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/11-networking-in-flutter/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/12-using-a-network-library/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/13-managing-state/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/13-managing-state/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/13-managing-state/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/13-managing-state/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/13-managing-state/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/13-managing-state/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/14-working-with-streams/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/14-working-with-streams/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/14-working-with-streams/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/14-working-with-streams/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/14-working-with-streams/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/14-working-with-streams/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/15-saving-data-with-sqlite/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/16-platform-specific-app-assets/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/17-build-and-release-an-android-app/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/18-build-and-release-an-ios-app/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/18-build-and-release-an-ios-app/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/18-build-and-release-an-ios-app/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "final",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/final",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "final (profile mode)",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "final (release mode)",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/final",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "starter",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/starter",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "starter (profile mode)",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "starter (release mode)",
+            "cwd": ".flta-materials/19-firebase-realtime-database/projects/starter",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
