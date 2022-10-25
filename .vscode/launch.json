@@ -11,6 +11,18 @@
             "type": "dart"
         },
         {
+            "name": "chapter4",
+            "cwd": "chapter4",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "chapter5",
+            "cwd": "chapter5",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
             "name": "chapter2 (profile mode)",
             "cwd": "chapter2",
             "request": "launch",
