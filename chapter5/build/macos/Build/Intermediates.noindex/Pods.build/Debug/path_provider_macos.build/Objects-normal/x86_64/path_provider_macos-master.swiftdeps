@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "0c6d0a8897facd4ae00961549be1bfe6bff0385bad312d159b29b6cf28aecebf"
+build_start_time: [1666735125, 839713096]
+build_end_time: [1666735143, 519840955]
+inputs:
+  "/Users/robert.radoslav/.pub-cache/hosted/pub.dartlang.org/path_provider_macos-2.0.6/macos/Classes/PathProviderPlugin.swift": [1662334887, 905162334]
