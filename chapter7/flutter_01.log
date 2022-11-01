@@ -1,0 +1,75 @@
+Flutter crash report.
+Please report a bug at https://github.com/flutter/flutter/issues.
+
+## command
+
+flutter run --machine --start-paused -d chrome --devtools-server-address http://127.0.0.1:9100/ --target /Users/robert.radoslav/Developer/flutter_projects/recipes_flutter_tut_rw/chapter7/lib/main.dart
+
+## exception
+
+RPCError: getIsolate: (-32603) getIsolate: [Sentinel kind: Collected, valueAsString: Unrecognized isolateId: 6630] from getIsolate()
+#0      ChromeProxyService._throwSentinel (package:dwds/src/services/chrome_proxy_service.dart:1104:5)
+#1      ChromeProxyService._checkIsolate (package:dwds/src/services/chrome_proxy_service.dart:1096:7)
+#2      ChromeProxyService.getIsolate.<anonymous closure> (package:dwds/src/services/chrome_proxy_service.dart:525:7)
+<asynchronous suspension>
+#3      StackZoneSpecification._registerUnaryCallback.<anonymous closure> (package:stack_trace/src/stack_zone_specification.dart:125:47)
+<asynchronous suspension>
+
+
+```
+#0      new _OutstandingRequest (package:vm_service/src/vm_service.dart:1746:45)
+#1      VmService._call (package:vm_service/src/vm_service.dart:2262:21)
+#2      VmService.getIsolate (package:vm_service/src/vm_service.dart:1986:7)
+#3      FlutterVmService.getIsolateOrNull (package:flutter_tools/src/vmservice.dart:963:20)
+#4      FlutterVmService.findExtensionIsolate (package:flutter_tools/src/vmservice.dart:928:51)
+<asynchronous suspension>
+#5      FlutterResidentDevtoolsHandler._waitForExtensionsForDevice (package:flutter_tools/src/resident_devtools_handler.dart:177:7)
+<asynchronous suspension>
+#6      Future.wait.<anonymous closure> (dart:async/future.dart:522:21)
+<asynchronous suspension>
+#7      FlutterResidentDevtoolsHandler.hotRestart (package:flutter_tools/src/resident_devtools_handler.dart:245:55)
+<asynchronous suspension>
+```
+
+## flutter doctor
+
+```
+[✓] Flutter (Channel beta, 3.4.0-34.1.pre, on macOS 13.0 22A380 darwin-x64, locale en-RO)
+    • Flutter version 3.4.0-34.1.pre on channel beta at /Users/robert.radoslav/Developer/flutter
+    • Upstream repository https://github.com/flutter/flutter.git
+    • Framework revision 71520442d4 (4 weeks ago), 2022-10-05 16:38:28 -0500
+    • Engine revision db0cbb2145
+    • Dart version 2.19.0 (build 2.19.0-255.2.beta)
+    • DevTools version 2.18.0
+
+[✓] Android toolchain - develop for Android devices (Android SDK version 29.0.2)
+    • Android SDK at /Users/robert.radoslav/Library/Android/sdk
+    • Platform android-29, build-tools 29.0.2
+    • Java binary at: /Library/Internet Plug-Ins/JavaAppletPlugin.plugin/Contents/Home/bin/java
+    • Java version Java(TM) SE Runtime Environment (build 1.8.0_251-b08)
+    • All Android licenses accepted.
+
+[✓] Xcode - develop for iOS and macOS (Xcode 14.0.1)
+    • Xcode at /Applications/Xcode.app/Contents/Developer
+    • Build 14A400
+    • CocoaPods version 1.11.3
+
+[✓] Chrome - develop for the web
+    • Chrome at /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+
+[!] Android Studio (not installed)
+    • Android Studio not found; download from https://developer.android.com/studio/index.html
+      (or visit https://flutter.dev/docs/get-started/install/macos#android-setup for detailed instructions).
+
+[✓] VS Code (version 1.72.2)
+    • VS Code at /Applications/Visual Studio Code.app/Contents
+    • Flutter extension version 3.50.0
+
+[✓] Connected device (1 available)
+    • Chrome (web) • chrome • web-javascript • Google Chrome 106.0.5249.119
+
+[✓] HTTP Host Availability
+    • All required HTTP hosts are available
+
+! Doctor found issues in 1 category.
+```
