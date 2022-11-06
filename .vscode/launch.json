@@ -35,6 +35,12 @@
             "type": "dart"
         },
         {
+            "name": "chapter13",
+            "cwd": "chapter13",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
             "name": "chapter2 (profile mode)",
             "cwd": "chapter2",
             "request": "launch",
