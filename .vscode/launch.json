@@ -11,6 +11,12 @@
             "type": "dart"
         },
         {
+            "name": "chapter19",
+            "cwd": "chapter19",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
             "name": "chapter4",
             "cwd": "chapter4",
             "request": "launch",

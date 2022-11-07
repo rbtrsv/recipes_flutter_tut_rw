@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>101099602427-e4o6jffes62568jdoahghkjb606uga25.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.101099602427-e4o6jffes62568jdoahghkjb606uga25</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAja5gSYQCy-Y1qUm4jgA0W7P8svZyc9Ks</string>
+	<key>GCM_SENDER_ID</key>
+	<string>101099602427</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.raywenderlich.RayChat</string>
+	<key>PROJECT_ID</key>
+	<string>raychat-bbab7</string>
+	<key>STORAGE_BUCKET</key>
+	<string>raychat-bbab7.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:101099602427:ios:fe0ad0151aab7ef1cacb5e</string>
+</dict>
+</plist>
