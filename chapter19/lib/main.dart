@@ -5,10 +5,13 @@ import '../data/message_dao.dart';
 import '../data/user_dao.dart';
 import 'ui/message_list.dart';
 import 'ui/login.dart';
+import 'firebase_options.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const App());
 }
 
