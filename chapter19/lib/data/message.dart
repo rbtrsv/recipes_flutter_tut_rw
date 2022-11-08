@@ -12,7 +12,8 @@ class Message {
     this.reference,
   });
   // TODO: Add JSON converters
-  // Transform your Message model from JSON since that’s how it’s stored in your Cloud Firestore
+  // Transform your Message model from JSON since
+  // that’s how it’s stored in your Cloud Firestore
   factory Message.fromJson(Map<dynamic, dynamic> json) => Message(
         text: json['text'] as String,
         date: DateTime.parse(json['date'] as String),
